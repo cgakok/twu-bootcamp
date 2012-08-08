@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38ec5f5-9dba-44c1-ba77-26ce1aef4ff3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu28/RandomNumberGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/FakeRandomNumberGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/Calculator.java" afterPath="$PROJECT_DIR$/src/com/twu28/Calculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CalculatorTest.java" afterPath="$PROJECT_DIR$/test/CalculatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twu-bootcamp.ipr" afterPath="$PROJECT_DIR$/twu-bootcamp.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twu-bootcamp.iws" afterPath="$PROJECT_DIR$/twu-bootcamp.iws" />
     </list>
     <ignored path="twu-bootcamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="46" column="35" selection-start="1169" selection-end="1169" vertical-scroll-proportion="1.1896552">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +84,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FakeRandomNumberGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/FakeRandomNumberGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="5" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomNumberGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/RandomNumberGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="49" selection-start="192" selection-end="192" vertical-scroll-proportion="0.20192307">
+            <state line="22" column="66" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/twu28/FakeRandomNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/RandomNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/test/FakeRandomNumberGenerator.java" />
         <option value="$PROJECT_DIR$/test/CalculatorTest.java" />
       </list>
     </option>
@@ -197,6 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -217,30 +241,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.twu28" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in twu-bootcamp">
-    <configuration default="false" name="CalculatorTest.shouldAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="twu-bootcamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldAddTwoNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.shouldMultiplyByARandomNumber">
     <configuration default="false" name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="twu-bootcamp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -293,6 +298,50 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.shouldMultipleTwoNumber" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="twu-bootcamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldMultipleTwoNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CalculatorTest.shouldMultiplyByARandomNumber" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="twu-bootcamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldMultiplyByARandomNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -424,11 +473,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.shouldAddTwoNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.shouldSubstractTwoNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in twu-bootcamp" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.shouldSubstractTwoNumbers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in twu-bootcamp" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.shouldMultipleTwoNumber" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.shouldMultiplyByARandomNumber" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -463,23 +513,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="937" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.500612" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.50306" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13219094" sideWeight="0.18872549" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.497552" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06731946" sideWeight="0.67034316" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.49510404" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13219094" sideWeight="0.54656863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25612745" sideWeight="0.49265605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,15 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twu-bootcamp.ipr">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.115384616">
@@ -578,8 +619,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="192" selection-end="192" vertical-scroll-proportion="0.20192307">
+        <state line="22" column="66" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/RandomNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FakeRandomNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="35" selection-start="1169" selection-end="1169" vertical-scroll-proportion="1.1896552">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

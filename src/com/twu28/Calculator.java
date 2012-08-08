@@ -1,11 +1,25 @@
 package com.twu28;
 
 public class Calculator {
-    public double add(double number1, double number2) {
-        return number1 + number2;
+    private RandomNumberGenerator randomNumberGenerator;
+
+    public Calculator(RandomNumberGenerator randomNumberGenerator) {
+        this.randomNumberGenerator = randomNumberGenerator;
     }
 
-    public double subtract(double number1, double number2) {
-        return number1 - number2;
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double subtract(double first, double second) {
+        return first - second;
+    }
+
+    public double multiply(double first, double second) {
+        return first * second;
+    }
+
+    public double multiplyByRandom(double number) {
+        return multiply(number, randomNumberGenerator.generate());
     }
 }
